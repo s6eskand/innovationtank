@@ -13,3 +13,24 @@ body {
 a {
     text-decoration: none;
 }
+
+a:hover {
+    cursor: pointer;
+}
+
+nav {
+    font-size: 2.25vh;
+    padding-bottom: 0.8rem;
+}
+
+nav li {
+    padding-right: 3rem;
+}
+
+.bg-light {
+    background: transparent !important;
+}
+
+.bg-light.scrolled {
+    background: darkgray !important;
+}
