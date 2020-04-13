@@ -16,13 +16,16 @@ class Navbar extends React.Component {
                                 <Link className="nav-link" to="aboutpage" spy={true} smooth={true} offset={-58} duration={2000}>About</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="projectpage" spy={true} smooth={true} offset={-70} duration={2000}>Projects</Link>
+                                <Link className="nav-link" to="productpage" spy={true} smooth={true} offset={-70} duration={2000}>Products</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="expertisepage" spy={true} smooth={true} offset={-20} duration={2000}>Expertise</Link>
+                                <Link className="nav-link" to="gofundme" spy={true} smooth={true} offset={-20} duration={2000}>GoFundMe</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="contactpage" spy={true} smooth={true} offset={100} duration={2000}>Contact</Link>
+                                <Link className="nav-link" to="sponsorpage" spy={true} smooth={true} offset={100} duration={2000}>Sponsors</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="contactpage" spy={true} smooth={true} offset={-20} duration={2000}>Contact</Link>
                             </li>
                         </ul>
                     </div>
