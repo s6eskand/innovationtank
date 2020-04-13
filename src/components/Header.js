@@ -1,6 +1,5 @@
 import React from "react";
-import { Link, animateScroll as scroll} from 'react-scroll';
-import {FaHome} from 'react-icons/fa';
+
 
 class Header extends React.Component {
     render() {
