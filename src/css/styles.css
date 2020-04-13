@@ -58,8 +58,70 @@ body::-webkit-scrollbar-thumb {
 }
 
 .gofundme_iframe {
-  overflow-y: hidden;
-  height: 530px;
   width: 100%;
+  overflow: hidden;
+}
+
+.gofundme_iframe > * {
+  overflow: hidden;
+}
+
+.gofundme_iframe-lg {
+  height: 530px;
+}
+
+@media (max-width: 800px) {
+  .gofundme_iframe-lg {
+    display: none;
+  }
+}
+
+.gofundme_iframe-md {
+  height: 230px;
+}
+
+@media (min-width: 799px) {
+  .gofundme_iframe-md {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .gofundme {
+    display: none;
+  }
+}
+
+.team_con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.team_member {
+  width: 22%;
+  background-color: red;
+  margin: 5px;
+}
+
+@media (max-width: 800px) {
+  .team_member {
+    width: 30%;
+    margin: 7px;
+  }
+}
+
+.team_member-name {
+  font-size: 40%;
+  word-wrap: normal !important;
 }
 /*# sourceMappingURL=styles.css.map */
