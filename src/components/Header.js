@@ -17,7 +17,6 @@ class Header extends React.Component {
                             Sourcing Needs From Local Frontline Workers
                         </h1>
                     </div>
-
                 </div>
             </header>
         )
