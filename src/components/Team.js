@@ -9,7 +9,7 @@ export default class Team extends Component {
 	render() {
 		return (
 			<div className="container section" id="contactpage">
-				<h1 className="section_title">Team</h1>
+				<h1 className="section_title">Meet The Team!</h1>
 				<hr className="section_bar" />
 				<div className="section_body">
 					<div className="team_con">
