@@ -19,7 +19,6 @@ class App extends React.Component {
 				<About />
 				<Products />
 				<GoFundMe />
-				<Sponsors />
 				<Team />
 			</div>
 		);
