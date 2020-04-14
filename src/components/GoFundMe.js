@@ -8,8 +8,12 @@ export default class GoFundMe extends Component {
 				<hr className="section_bar" />
 				<div className="section_body">
 					<iframe
-						className="gofundme_iframe"
+						className="gofundme_iframe gofundme_iframe-lg"
 						src="https://www.gofundme.com/f/3dprinted-mask-straps-amp-more-for-hospital-staff/widget/large"
+					/>
+					<iframe
+						className="gofundme_iframe gofundme_iframe-md"
+						src="https://www.gofundme.com/f/3dprinted-mask-straps-amp-more-for-hospital-staff/widget/medium"
 					/>
 				</div>
 			</div>

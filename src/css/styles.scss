@@ -47,8 +47,46 @@ body {
 }
 .gofundme {
 	&_iframe {
-		overflow-y: hidden;
-		height: 530px;
 		width: 100%;
+		overflow: hidden;
+		> * {
+			overflow: hidden;
+		}
+		&-lg {
+			height: 530px;
+			@media (max-width: 800px) {
+				display: none;
+			}
+		}
+		&-md {
+			height: 230px;
+			@media (min-width: 799px) {
+				display: none;
+			}
+		}
+	}
+	@media (max-width: 800px) {
+		display: none;
+	}
+}
+.team {
+	&_con {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	&_member {
+		width: 22%;
+		background-color: red;
+		margin: 5px;
+		@media (max-width: 800px) {
+			width: 30%;
+			margin: 7px;
+		}
+		&-name {
+			font-size: 40%;
+			word-wrap: normal !important;
+		}
 	}
 }
