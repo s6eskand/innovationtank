@@ -16,7 +16,7 @@ class Navbar extends React.Component {
                                 <Link className="nav-link" to="aboutpage" spy={true} smooth={true} offset={-58} duration={2000}>About</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="productpage" spy={true} smooth={true} offset={-70} duration={2000}>Products</Link>
+                                <Link className="nav-link" to="productpage" spy={true} smooth={true} offset={-70} duration={2000}>Product</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="gofundme" spy={true} smooth={true} offset={-20} duration={2000}>GoFundMe</Link>
