@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 const team = [
-	{ name: 'Tank', href: 'https://picsum.photos/400', description: 'Tank' },
-	{ name: 'Farhan Mohammed', href: 'https://picsum.photos/400', description: 'Web dev' },
-	{ name: 'Farhan Mohammed', href: 'https://picsum.photos/400', description: 'Web dev' },
-	{ name: 'Sam', href: 'https://picsum.photos/400', description: 'Web dev' }
+	{ name: 'Tank', href: 'https://cdn.discordapp.com/attachments/699280748192071760/700428424359051274/DSF1459croped.jpg', description: 'Organizer, Maker' },
+	{ name: 'Jenny Quach', href: 'https://cdn.discordapp.com/attachments/699280748192071760/700425511926759504/image0.png', description: 'Organizer' },
+	{ name: 'Sam Eskandar', href: 'https://sam-eskandar.herokuapp.com/static/images/profile_pic.21be18cd3f8d.png', description: 'Development' },
+	{ name: 'Farhan Mohammed', href: 'https://picsum.photos/400', description: 'Development' },
+	{ name: 'Christopher Chang', href: 'https://cdn.discordapp.com/attachments/699280748192071760/700428348471378031/IMG_20200413_010327_496.jpg', description: 'Maker' },
+	{ name: 'Yvonne Chung', href: 'https://cdn.discordapp.com/attachments/699280748192071760/701618926525612083/image0.jpg', description: 'Design' },
 ];
 export default class Team extends Component {
 	render() {
 		return (
-			<div className="container section" id="contactpage">
+			<div className="container section" id="teampage">
 				<h1 className="section_title">Meet The Team!</h1>
 				<hr className="section_bar" />
 				<div className="section_body">
@@ -18,7 +20,7 @@ export default class Team extends Component {
 								<div className="team_member">
 									<div className="ui fluid card" style={{ height: '100%' }}>
 										<div class="image">
-											<img src={href} />
+											<img style={{height: 'auto'}} src={href} />
 										</div>
 										<div class="team_member-name content">
 											<a class="header">{name}</a>

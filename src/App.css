@@ -32,8 +32,59 @@ nav li {
     transition: background-color 200ms linear;
 }
 
+.image img {
+    height: 242px;
+    width: 242px;
+}
+
 .sticky-top.scrolled {
     background-color: #f7f7f7 !important;
     transition: background-color 200ms linear;
 }
 
+.mojFooter{
+    background-color: #f8f8f8;
+    color: #0f0f0f;
+    border-top: 1px solid #e7e7e7;
+    margin-bottom: 0;
+}
+
+.bottom-footer{
+    border-top: 1px solid #0f0f0f;
+    margin-top: 0px;
+    padding-top: 7px;
+    color: #0f0f0f;
+
+}
+
+.footer-nav li{
+    display: inline-flex;
+    padding: 0 40px;
+    color: grey;
+}
+
+/*.img__wrap {*/
+/*    position: relative;*/
+/*    height: 200px;*/
+/*    width: 257px;*/
+/*}*/
+
+/*.img__description {*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    background: rgba(29, 106, 154, 0.72);*/
+/*    color: #fff;*/
+/*    visibility: hidden;*/
+/*    opacity: 0;*/
+
+/*    !* transition effect. not necessary *!*/
+/*    transition: opacity .2s, visibility .2s;*/
+/*}*/
+
+/*.img__wrap:hover .img__description {*/
+/*    visibility: visible;*/
+/*    opacity: 1;*/
+/*}*/

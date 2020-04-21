@@ -6,9 +6,9 @@ import Header from './components/Header';
 import About from './components/About';
 import Products from './components/Products';
 import GoFundMe from './components/GoFundMe';
-import Sponsors from './components/Sponsors';
 import Team from './components/Team';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Contact from "./components/Contact";
 
 class App extends React.Component {
 	render() {
@@ -20,6 +20,7 @@ class App extends React.Component {
 				<Products />
 				<GoFundMe />
 				<Team />
+				<Contact/>
 			</div>
 		);
 	}

@@ -22,7 +22,7 @@ class Navbar extends React.Component {
                                 <Link className="nav-link" to="gofundme" spy={true} smooth={true} offset={-20} duration={2000}>GoFundMe</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="sponsorpage" spy={true} smooth={true} offset={100} duration={2000}>Team</Link>
+                                <Link className="nav-link" to="teampage" spy={true} smooth={true} offset={100} duration={2000}>Team</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="contactpage" spy={true} smooth={true} offset={-20} duration={2000}>Contact</Link>
