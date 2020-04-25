@@ -1,12 +1,12 @@
 import React from 'react';
-import photo from '../media/Completed_batch_test1.jpg';
+import photo from '../../media/Completed_batch_test1.jpg';
 import { FaArrowRight } from 'react-icons/fa';
 import { MdAdd } from 'react-icons/md';
 
 class Products extends React.Component {
 	render() {
 		return (
-			<div id="productpage" className="container" style={{ padding: '3vw', textAlign: 'center' }}>
+			<div id="productpage" className="section" style={{ padding: '3vw', textAlign: 'center' }}>
 				<h1 className="section_title">Our Product</h1>
 				<hr className="section_bar" />
 				<div className="row" style={{ paddingTop: '3vw', fontFamily: 'Raleway' }}>
