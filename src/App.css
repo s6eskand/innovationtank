@@ -57,6 +57,7 @@ nav li {
 }
 .footer-nav {
 	margin: 20px 0;
+	margin-bottom: 40px;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
