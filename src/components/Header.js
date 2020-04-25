@@ -25,6 +25,9 @@ class Header extends React.Component {
 							<b>Innovation Tank</b>
 							<br />Fulfilling the needs of frontline workers in the Greater Toronto Area
 						</h1>
+						<a href="https://forms.gle/QLvxgqXjoQxm3ogD8">
+							<button className="ui instagram button">Request Ear Savers</button>
+						</a>
 					</div>
 				</div>
 			</header>

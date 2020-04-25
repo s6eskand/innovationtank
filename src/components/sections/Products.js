@@ -44,11 +44,6 @@ class Products extends React.Component {
 						frontline worker is welcome to submit a request and we will do our best to get them to you as
 						soon as possible.
 					</div>
-					<div style={{ display: 'flex', justifyContent: 'center' }}>
-						<a href="https://forms.gle/QLvxgqXjoQxm3ogD8">
-							<button class="ui instagram button">Request Ear Savers</button>
-						</a>
-					</div>
 				</div>
 			</div>
 		);

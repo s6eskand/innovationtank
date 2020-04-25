@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 const nolink = 'https://imgur.com/9pcdDKI.png';
 const team = [
 	{
-		name: 'Tank',
+		name: 'Tancred Yip',
 		href: 'https://cdn.discordapp.com/attachments/699280748192071760/700428424359051274/DSF1459croped.jpg',
 		description: 'Organizer, Maker'
 	},
