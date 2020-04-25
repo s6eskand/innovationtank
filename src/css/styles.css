@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap");
 body {
   overflow-x: hidden;
-  background-color: black;
 }
 
 body::-webkit-scrollbar-track {
