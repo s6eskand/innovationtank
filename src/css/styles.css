@@ -125,7 +125,7 @@ body::-webkit-scrollbar-thumb {
   padding: 10px;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
   .team_member {
     width: 33%;
   }

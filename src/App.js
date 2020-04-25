@@ -14,13 +14,13 @@ import { BrowserRouter, Route, Link } from 'react-router-dom';
 class App extends React.Component {
 	renderContent = () => (
 		<div>
-			<Link to="/request">
+			{/* <Link to="/request">
 				<button class="ui instagram fluid button">
 					<i class="hand point right icon" style={{ marginRight: '3px' }} />
 					Create a new request
 					<i class="hand point left   icon" style={{ marginLeft: '2.5px' }} />
 				</button>
-			</Link>
+			</Link> */}
 			<About />
 			<Products />
 			<GoFundMe />
@@ -35,7 +35,7 @@ class App extends React.Component {
 				<BrowserRouter>
 					<div className="container">
 						<Route path="/" exact component={this.renderContent} />
-						<Route path="/request" exact component={Request} />
+						{/* <Route path="/request" exact component={Request} /> */}
 					</div>
 				</BrowserRouter>
 				<Contact />

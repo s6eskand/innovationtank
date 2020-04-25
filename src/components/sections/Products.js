@@ -8,7 +8,7 @@ class Products extends React.Component {
 		return (
 			<div id="productpage" className="section" style={{ padding: '3vw', textAlign: 'center' }}>
 				<h1 className="section_title">Our Product</h1>
-				<hr className="section_bar" />
+				{/* <hr className="section_bar" /> */}
 				<div className="row" style={{ paddingTop: '3vw', fontFamily: 'Raleway' }}>
 					<div className="col-4">
 						<img style={{ borderRadius: '50%', borderTop: '50%', width: '50%' }} src={photo} alt="" />
@@ -36,9 +36,18 @@ class Products extends React.Component {
 				</div>
 				<div className="col-12">
 					<div className="section_body">
-						Hospitals are now requiring frontline workers to wear a mask throughout the entire day. These
-						“ear-saver” straps effectively prevent the worker’s ears from becoming raw and painful from the
-						elastic loops.
+						Face masks provide essential protection for our frontline workers during the COVID-19 crisis,
+						but wearing them all day can lead to painful pressure on the ears. These 3D-printed Ear Savers
+						effectively reduce pressure and skin breakdown from the masks, preventing pain and discomfort.<br />
+						<br />
+						We are working to provide Ear Savers to local frontline staff <strong>for free!</strong> Any
+						frontline worker is welcome to submit a request and we will do our best to get them to you as
+						soon as possible.
+					</div>
+					<div style={{ float: 'right' }}>
+						<a href="https://forms.gle/QLvxgqXjoQxm3ogD8">
+							<button class="ui instagram button">Request Ear Savers</button>
+						</a>
 					</div>
 				</div>
 			</div>
